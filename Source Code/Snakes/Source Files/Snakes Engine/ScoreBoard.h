@@ -1,0 +1,1 @@
+int SB_ShowScoreBoard();

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{0f85d95c-62e6-4a2b-bcb8-871a59e2c15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e8c39274-b077-4058-b2b9-87ba03f9f1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Snakes Engine">
+      <UniqueIdentifier>{f1864a48-3df3-46cc-abf0-9a07f4d2a0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Snakes">
+      <UniqueIdentifier>{e2ea93d6-144d-43e3-9699-d824bba130d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\Main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\AI.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\Branch.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\GameEngine.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\MainMenu.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\Mushroom.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\OtherF.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\ScoreBoard.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\Snake.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Snakes Engine\StatusBoard.c">
+      <Filter>Source Files\Snakes Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib\WinMM.Lib">
+      <Filter>Library Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source Files\Snakes Engine\GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\AI.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\Branch.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\Mushroom.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\OtherF.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\ScoreBoard.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\Snake.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\StatusBoard.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\MainMenu.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\Snakes Engine\SE_Types.h">
+      <Filter>Header Files\Snakes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
