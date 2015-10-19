@@ -2,8 +2,6 @@
 #include <stdarg.h>
 #include <crtdbg.h>
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Definitions & Types: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
 #define ATT_APEAK_DIR_BCOE 100 // Base coefficient of Apeak Dir for choosing Probability
 #define ATT_CONV_DIR_BCOE (100-ATT_APEAK_DIR_BCOE)//Base Coefficient of Converse Dir for choosing Probability
 
@@ -41,8 +39,6 @@
 
 #define Orient(Direct) (((Direct) <= 1) ? Vertical:Horizontal)
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Structures: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
 typedef struct _Trap_Parameters{
 	COORD *Sn;// Coord of all Sn Body 
 	COORD *TarSn; // Coord of all Target Sn Body
@@ -56,7 +52,6 @@ typedef struct _Trap_Parameters{
 	int IllegalDir,TarSn_IllegalDir;
 } Trap_Param;
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Functions Declaration: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 void CheckTraps(Snake *Sn,int DirS[],int Phase,int IllegalDir);
 int Rec_TrapsScore(Trap_Param *TP);
@@ -92,16 +87,11 @@ void ReportVirStat(Trap_Param *TP);
 void ReportVirStat1(Trap_Param *TP);
 void ReportGameField(Trap_Param *TP);
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Global Var: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
 int DirDiff[4][2]={
 				{0,-1},{0,1}, //Up , Down
 				{-1,0},{1,0} //Left , Right
 			   };
 
-//###################################################################################################################################################
-//######################################################## Functions Definitions: ###################################################################
-//###################################################################################################################################################
 
 // Main Function of AI.Only this Function is not static and can be seen from outside.Chooses Best Possible Direction for Specified Com Snake.
 void SetComSnakeDirection(Snake *Sn){
@@ -611,6 +601,7 @@ static void CheckTraps(Snake *Sn,int DirS[],int Phase,int IllegalDir){
 		if(TP.TarSn) free(TP.TarSn);
 		free(TP.GField);
 	}
+	
 	////################################################ PMushs existing Checking: ########################################################
 
 	if(GE.Diffic != Funny){

@@ -5,16 +5,24 @@
 
 													  Title      : Snakes
 													  Version    : 1.0.0
-													  Developers : Hojat Irvany & Parnian Zare
-													  Start date : 2011/2/25 - 1389/12/06
-													  End date   : n/a
-
-									   Copyright 2011.All Right Reserved © Hojat Irvany(Doulabi)
+													  Developers : Hojat Irvani
+													  Start date : 2011/2/25
+													  End date   : 2011/6/30
 							
-							   All Rights of this Software and associated documentation files are limited
-							   and restricted to its owner, Hojat Irvany .So anyone have no permission to 
-								 copy,modify,merge,publish,distribute,sublicence and sell copies of the 
-							   software parts.using of the software is limited only to learning purposes.	    
+									Copyright (c) 2011 Hojat Irvani.
+									All rights reserved.
+
+									Redistribution and use in source and binary forms are permitted
+									provided that the above copyright notice and this paragraph are
+									duplicated in all such forms and that any documentation,
+									advertising materials, and other materials related to such
+									distribution and use acknowledge that the software was developed
+									by the Hojat Irvani. The name of the Hojat Irvani may not be used
+									to endorse or promote products derived from this software without 
+									specific prior written permission.
+									THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+									IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+									WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.	    
 							||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 									 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 												   |||||||||||||||||||||||||||||
