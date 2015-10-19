@@ -9,7 +9,7 @@
 													  Start date : 2011/2/25
 													  End date   : 2011/6/30
 							
-									Copyright (c) 2011 Hojat Irvani.
+									Copyright (c) 2015 Hojat Irvani.
 									All rights reserved.
 
 									Redistribution and use in source and binary forms are permitted
